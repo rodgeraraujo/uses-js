@@ -1,12 +1,12 @@
 {
   "name": "uses-js",
   "description": "Simple JavaScript file and module loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rodgeraraujo/usejs.git"
+    "url": "https://github.com/rodgeraraujo/uses-js.git"
   },
   "dependencies": {
     "process": "^0.11.10"
