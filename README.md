@@ -45,7 +45,7 @@ All notable changes to this project will be documented here.
 
 ## Contributing
 
-If you want to contribute to the project and make it better, feel free to fork and contribute after reading the [CONTRIBUTING.md](https://github.com/rodgeraraujo/uses-js/blob/master/CONTRIBUTING) file.
+If you want to contribute to the project and make it better, feel free to fork and contribute after reading the [CONTRIBUTING.md](https://github.com/rodgeraraujo/uses-js/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
