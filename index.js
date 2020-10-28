@@ -1,10 +1,8 @@
-const Use = require('./use');
+#!/usr/bin/env node
 
-global.use = function (path) {
-  let isNodeModule = path.includes('/') ? false : true;
-  path = path ? path : undefined;
-
-  return new Use(path, isNodeModule).getModule();
+global.use = (namespace) => {
+  let isNodeModule = namespace.includes('/') ? false : true;
+  new (require('./src/use'))(namespace, isNodeModule).lookup();
 };
-
-module.exports = global;
+module.exports = global.use;
+module.use = global.use;
